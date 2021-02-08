@@ -1,0 +1,21 @@
+{
+    "name": "instaclone",
+    "version": "0.0.1",
+    "description": "Servidor de la App InstaClone",
+    "main": "index.js",
+    "author": "Victor Hugo Aguilar Aguilar",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon ./index.js"
+    },
+    "dependencies": {
+        "apollo-server": "^2.19.2",
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.15"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.7"
+    }
+}
